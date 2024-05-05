@@ -6,6 +6,7 @@
 </script>
 
 <style>
+    
     /* Ваши стили здесь */
     .zagolovok{
         position: absolute;

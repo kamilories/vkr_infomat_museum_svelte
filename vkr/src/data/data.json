@@ -66,12 +66,44 @@
     },
     "plan_goroda":{
         "zagolovok":"План города Лаишев 1776 г.",
-        "spisok_left":"images_new/4_spisok.png",
-        "card_right":"images_new/4_card_streets.png",
-        "streets_text_img":"images_new/4_streets_text.png",
-        "spisok_text":"1.\tЦерковь Соборная каменная\n        во имя Софии;\n        2.\tЧасовня каменная;\n        3.\tЧасовня, где прежде была церковь, обреченная во имя Воскрешения Христова;\n        4.\tвне города соляные и винные завода, казенные внутри города;\n        5.\tПитейный дом;\n        6.\tТорговые лавки живущих \n        в городе купцов и мещан;\n        7.\tКузницы обывателей;\n        8.\tКараульная;\n        9.\tТюрьма и при ней караульня;\n        10.\tДома и между оными огороды жителей;\n        11.\tОгуменники (площадка для молотьбы сжатого хлеба с помещением для его сушки), живущих в городе крестьян и пахотных солдат;\n        12.\tбывший корпус деревянного на каменном фундаменте;\n        13.\tКварталы, где должны граждане строить дома;\n        14. Мост через овраг деревянный;\n        15. Кладбище вне города;\n        16. Кирпичный сарай.",
-        "button_magazin":"images_new/4_mazagin_button.png",
-        "mazagin":"images_new/4_magz.png",
+        "img":"images_new/4_img.png",
+        "spisok_text":"1.Церковь Соборная каменная\nво имя Софии;\n2.Часовня каменная;\n3.Часовня, где прежде была церковь, обреченная во имя Воскрешения Христова;\n4.вне города соляные и винные завода, казенные внутри города;\n5.Питейный дом;\n6.Торговые лавки живущих \nв городе купцов и мещан;\n7.Кузницы обывателей;\n8.Караульная;\n9.Тюрьма и при ней караульня;\n10.Дома и между оными огороды жителей;\n11.Огуменники (площадка для молотьбы сжатого хлеба с помещением для его сушки), живущих в городе крестьян и пахотных солдат;\n12.бывший корпус деревянного на каменном фундаменте;\n13.Кварталы, где должны граждане строить дома;\n14. Мост через овраг деревянный;\n15. Кладбище вне города;\n16. Кирпичный сарай.",
+        "button_magazin":"images_new/4_magazin_button.png",
+        "magazin":"images_new/4_magz.png",
         "krestik":"images_new/krestik.png"
+    },
+    "gorod_laishev":{
+        "krestik":"images_new/krestik.png",
+        "zagolovok":"Город Лаишев. 1899 г.",
+        "zagolovok_dop":"Выберите объект на карте \nдля просмотра",
+        "touch_img":"images_new/touch.png",
+        "img_karta_sprava":"images_new/5_karta_sprava.png",
+        "button_karta_uezda":"images_new/button_karta_uezda.png",
+        "img_karta_uezda":"images_new/5_karta_uezda.png",
+        "img_lupa_for_karta":"/images_new/lupa.png",
+        "img_karta_uezda_big":"images_new/5_karta_uezda_big.png",
+        
+        "1_punkt_img":"images_new/punkt_button.png",
+        "2_punkt_img":"",
+        "3_punkt_img":"",
+        "4_punkt_img":"",
+        "5_punkt_img":"",
+        "6_punkt_img":"",
+        "7_punkt_img":"",
+        "vnutri_punktov":[
+            {"id": 1, "img":"","text":""},
+            {"id": 2,"img":"","text":""},
+            {"id": 3,"img":"","text":""},
+            {"id": 4,"img":"","text":""},
+            {"id": 5,"img":"","text":""},
+            {"id": 6,"img":"","text":""},
+            {"id": 7,"img":"","text":""},
+            {"id": 8,"img":"","text":""}
+
+        ]
+    },
+    "laishevo_today":{
+      
+
     }
-}
+} 

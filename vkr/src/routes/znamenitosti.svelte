@@ -87,20 +87,20 @@
         font-size: 5vh;
     }
     .krestik_button{
-    position: absolute;
-    top: 1px;
-    right: 1px;
-    height: auto;
-    padding: 0;
-    border: none;
-    background: transparent;
-    max-width: 100%;
-    width: 11%;
-    z-index: 2;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        height: auto;
+        padding: 0;
+        border: none;
+        background: transparent;
+        max-width: 100%;
+        width: 10%;
+        z-index: 2;
    }
    .krestik_button img{
-    width: 100%; /* Ширина изображения 100% от родительскего элемента */
-    height: auto;
+        width: 100%; /* Ширина изображения 100% от родительскего элемента */
+        height: auto;
    }
     .buttons{
         width: 20%;

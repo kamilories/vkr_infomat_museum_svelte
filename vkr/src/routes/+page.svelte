@@ -55,15 +55,14 @@
 </script>
   
 <style>
-    
-    .background {
-        background: url(images_new/fon.png); /*Добавляем фон */
+    :global(body){
+        background-image: url(images_new/fon.png);
         background-size: cover;
         height: 100vh;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
+        width: 100vw;
+        background-attachment: fixed;
     }
+    
     .zagolovok{
         position: absolute;
         left: 50%;
@@ -107,14 +106,14 @@
     }
    .home_button{
     position: absolute;
-    top: 1px;
-    right: 1px;
+    top: 0;
+    right: 0;
     height: auto;
     padding: 0;
     border: none;
     background: transparent;
     max-width: 100%;
-    width: 11%;
+    width: 10%;
    }
    .home_button img{
     width: 100%; /* Ширина изображения 100% от родительскего элемента */
@@ -152,7 +151,7 @@
     }
 </style>
   
-<div class="background">
+<div>
     {#if if_main_page}
     <h1 class="zagolovok">{main_page_json.zagolovok}</h1>
     <button on:click={history} class="button_1 buttons_1_3_main">
