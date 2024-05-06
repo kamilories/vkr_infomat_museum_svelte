@@ -7,6 +7,7 @@
     import Znamenitosti from './znamenitosti.svelte';
     import PlanGoroda from './plan_goroda.svelte';
     import GorodLaishev from './gorod_laishev.svelte';
+    import LaishevoToday from './laishevo_today.svelte';
     // импорт джсон
     let main_page_json = textData.main_page;
     // создание переменных для условий переключения событий
@@ -203,6 +204,7 @@
         <img src={main_page_json.home} alt="home">  
     </button>
     {:else if if_today}
+    <LaishevoToday />
     <button on:click={gohome} class="home_button">
         <img src={main_page_json.home} alt="home">  
     </button>
