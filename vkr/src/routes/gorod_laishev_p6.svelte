@@ -28,7 +28,7 @@
         max-width: 100%;
         word-wrap: break-word;
         white-space: pre-wrap;
-        font-size: 1.9vh;
+        font-size: 1.8vh;
     }
     .foto{
         position: absolute;

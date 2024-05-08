@@ -23,8 +23,8 @@
         position: absolute;
         font-family: "PT Sans Caption";
         top:23%;
-        left: 10%;
-        width: 85%;
+        left: 7%;
+        width: 86%;
         max-width: 100%;
         word-wrap: break-word;
         white-space: pre-wrap;
@@ -32,9 +32,9 @@
     }
     .foto{
         position: absolute;
-        left: 10%;
-        top:40%;
-        width: 80%;
+        left: 7%;
+        top:41.5%;
+        width: 86%;
         max-width: 100%;
     }
 </style>

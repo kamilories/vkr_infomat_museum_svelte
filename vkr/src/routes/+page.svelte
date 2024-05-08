@@ -8,6 +8,7 @@
     import PlanGoroda from './plan_goroda.svelte';
     import GorodLaishev from './gorod_laishev.svelte';
     import LaishevoToday from './laishevo_today.svelte';
+    import Game from './game.svelte';
     // импорт джсон
     let main_page_json = textData.main_page;
     // создание переменных для условий переключения событий
@@ -18,6 +19,7 @@
     let if_plan=false;
     let if_gorod=false;
     let if_today=false;
+    let if_game=false;
     // события
     function gohome(){
         if_main_page=true;
@@ -27,6 +29,7 @@
         if_plan=false;
         if_gorod=false;
         if_today=false;
+        if_game=false;
     }
     function history(){
         if_main_page = false;
@@ -51,6 +54,10 @@
     function today(){
         if_main_page=false;
         if_today=true;
+    }
+    function game(){
+        if_main_page=false;
+        if_game=true;
     }
 
     
@@ -174,6 +181,7 @@
     <button on:click={today} class="button_6 buttons">
         <img  src={main_page_json['6_button']} alt="img3">  
     </button>
+    <button on:click={game}>Игра</button>
 
     {:else if if_history}
     <HistoryOfCity />
@@ -205,6 +213,11 @@
     </button>
     {:else if if_today}
     <LaishevoToday />
+    <button on:click={gohome} class="home_button">
+        <img src={main_page_json.home} alt="home">  
+    </button>
+    {:else if if_game}
+    <Game />
     <button on:click={gohome} class="home_button">
         <img src={main_page_json.home} alt="home">  
     </button>

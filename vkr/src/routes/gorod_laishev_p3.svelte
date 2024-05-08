@@ -14,7 +14,7 @@
         position: absolute;
         font-family:'KuzanyanC';
         top: 22%;
-        left: 50%;
+        left: 50.5%;
         max-width: 100%;
         color: #663300;
         font-size: 3.6vh;
@@ -23,18 +23,18 @@
         position: absolute;
         font-family: "PT Sans Caption";
         top:28%;
-        left: 50%;
+        left: 51%;
         width: 32%;
         max-width: 100%;
         word-wrap: break-word;
         white-space: pre-wrap;
-        font-size: 1.9vh;
+        font-size: 1.7vh;
     }
     .foto{
         position: absolute;
-        left: 3%;
+        left: 2%;
         top:25%;
-        width: 90%;
+        width: 95%;
         max-width: 100%;
     }
 </style>

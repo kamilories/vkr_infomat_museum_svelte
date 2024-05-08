@@ -49,8 +49,10 @@
         if_gorodtoday=true;
         if_oblast_zatop=false;
         if_1=false;
+        if_2=false;
         if_3=false;
         if_4=false;
+        if_5=false;
         if_6=false;
         if_7=false;
         if_8=false;
