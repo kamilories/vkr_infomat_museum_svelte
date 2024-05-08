@@ -99,9 +99,9 @@
         
         position: absolute;
         top: 33%;
-        left: 50%;
+        left: 40%;
         right: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%); 
     }
     .button_2{
         position: absolute;
@@ -158,6 +158,22 @@
         top: 55%;
         right: 5%;
     }
+    .game_button{
+        width: 20%;
+        height: auto;
+        padding: 0;
+        border: none;
+        background: transparent;
+        max-width: 100%;
+        position: absolute;
+        top: 27%;
+        right: 20%;
+
+    }
+    .game_button img{
+        width: 100%; /* Ширина изображения 100% от родительскего элемента */
+        height: auto;
+    }
 </style>
   
 <div>
@@ -181,7 +197,9 @@
     <button on:click={today} class="button_6 buttons">
         <img  src={main_page_json['6_button']} alt="img3">  
     </button>
-    <button on:click={game}>Игра</button>
+    <button on:click={game} class="game_button">
+        <img  src={main_page_json.game_button} alt="img3">  
+    </button>
 
     {:else if if_history}
     <HistoryOfCity />
